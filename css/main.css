@@ -1,0 +1,237 @@
+#header{
+  height: 70px;
+  border-bottom: 2px solid white;
+
+}
+#navBar{
+  height: 30px;
+}
+#logo{
+  position: relative;
+  margin-top: 7.5px;
+  left: 40%;
+
+}
+#signUp{
+  position: relative;
+  left: 87.5%;
+}
+#searchLi{
+  margin-top:5px;
+}
+#searchIcon{
+  margin-left:50px;
+  color: white;
+  font-size: 2em;
+}
+#searchBox{
+  z-index:-1;
+}
+#loginButton{
+  height: 45px;
+  position:relative;
+  left: -15px;
+  font-size:.6em;
+  text-align:left;
+  text-transform: uppercase;
+  line-height:10px;
+}
+#loginButtonSmall{
+  position:relative;
+  top: -30px;
+  left: 250px;
+  height: 100%;
+  width: 20%;
+}
+#signUpText{
+  border-top: 1px solid white;
+  font-size:1.1em;
+  text-align:center;
+  padding-top:2px;
+}
+#weather{
+  position:relative;
+  left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid white;
+  margin-top: 5px;
+}
+#weatherInfo{
+  display:inline-block;
+  color: white;
+}
+#temp{
+  position:relative;
+  left:35px;
+}
+#forcast{
+  position:relative;
+  left:35px;
+}
+#navLinks{
+  margin-left:60px;
+}
+#navLinks a{
+  padding-right: 40px;
+  text-align: center;
+}
+.alert-box{
+  position: absolute;
+  width: 100%;
+  z-index: 998;
+  opacity: 0.9;
+  font-size:2em;
+  height: 60px;
+}
+.fi-alert{
+  color:yellow;
+}
+.mainContent{
+  margin-top:2.5%;
+}
+#trending{
+  color:black;
+}
+#trendingHeadline{
+  text-align: center;
+  font-size: 1.2em;
+}
+.trendingPost h1{
+
+  font-size: 1.2em;
+}
+.trendingPost p{
+  font-size: .7em;
+  text-transform: uppercase;
+}
+.icon-bar {
+  height: 10%; 
+  margin-top: -2px;
+}
+.icon-bar a {
+  position: relative;
+  color: #04AF09;
+  background: linear-gradient(#545454, #000000);
+  background: -webkit-linear-gradient(#545454, #000000);
+  background: -o-linear-gradient(#545454, #000000);
+  background: -moz-linear-gradient(#545454, #000000); 
+}
+.icon-bar img {
+  height: 1.3em;
+  width: 1.3em; 
+}
+  .icon-bar label {
+    font-size: .65em; 
+}
+.icon-bar .menu {
+      color: #04af09; 
+}
+.icon-bar input[type="search"] {
+        position: relative;
+        border-radius: 10px;
+        top: 10px;
+        width: 75%;
+        float: right;
+        display: none;
+        margin-right: 10px;
+        text-align: left; 
+}@media only screen and (max-width: 40em) {
+  header {
+    background-color: #000000;
+    color: #fff;
+    height: 60px;
+    width: 100%; }
+    header ul {
+      display: inline-block;
+      font-size: 10px;
+      list-style: none;
+      position: relative;
+      top: 8px;
+      right: 10px; }
+    header li:first-child {
+      font-size: 12px; }
+    header img:first-child {
+      height: 25px;
+      width: 40px;
+      border-right: solid 1px #fff;
+      padding-right: 10px; }
+    header a {
+      float: right;
+      position: relative;
+      font-size: .6em;
+      top: 0;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 10px;
+      padding: .5em 2em;
+      background-color: #04AF09;
+      color: #fff;
+      margin-top: -35px; }
+    header a:hover {
+      opacity: .8;
+      color: #fff; }
+    header .signup {
+      border-top: solid 1px #fff; }
+
+  .logo {
+    position: relative;
+    margin-top: -45px;
+    height: 32px;
+    width: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .icon-bar {
+    height: 10%; }
+    .icon-bar a {
+      position: relative;
+      padding-top: 10px;
+      color: #04AF09;
+      background: linear-gradient(#545454, #000000);
+      background: -webkit-linear-gradient(#545454, #000000);
+      background: -o-linear-gradient(#545454, #000000);
+      background: -moz-linear-gradient(#545454, #000000); }
+    .icon-bar img {
+      height: 1.3em;
+      width: 1.3em; }
+    .icon-bar label {
+      font-size: .65em; }
+    .icon-bar .menu {
+      color: #04af09; }
+    .icon-bar input[type="search"] {
+      position: relative;
+      border-radius: 10px;
+      top: 10px;
+      width: 75%;
+      float: right;
+      display: none;
+      margin-right: 10px;
+      text-align: left; }
+
+  .breakingNews {
+    background-color: #FA191D;
+    color: #fff;
+    display: none;
+    position: absolute;
+    top: 125px;
+    z-index: 100; }
+    .breakingNews h2 {
+      color: #fff; }
+    .breakingNews button {
+      display: inline-block;
+      position: absolute;
+      background: none;
+      padding: 4px 10px 4px 10px;
+      border: solid 1px #fff;
+      border-radius: 50%; }
+
+  .x {
+    position: absolute;
+    height: 40px;
+    width: 1px;
+    left: 100%;
+    bottom: 30%;
+    background-color: #fff;
+    opacity: .2; } }
